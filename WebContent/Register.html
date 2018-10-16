@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Montserrat';
+}
+
+h2 {
+	font-size: 0.8em;
+}
+</style>
+
+<meta charset="ISO-8859-1">
+<title>Register</title>
+</head>
+
+<body>
+
+<form method="POST" action="./RegisterServlet">
+
+	<h1>REGISTER</h1>
+	<hr>
+	
+	<p>
+	<label for="username"><b>Username: </b></label>
+	<input type="text" name="username" required><br>
+	</p>
+	
+	<p>
+	<label for="password"><b>Password: </b></label>
+	<input type ="password" name="password" required><br>
+	</p>
+	
+	<p>
+	<input type="submit" value="Register" name="register" />
+	<input type="reset" value="Clear" /><br>
+	</p>
+	
+</form>
+
+</body>
+</html>
